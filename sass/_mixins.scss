@@ -1,0 +1,41 @@
+@mixin links($color,$tam){
+	color:$color;
+	font-size:$tam;
+}
+//imagenes de fondo
+@mixin background-image($url,$width,$height,$repeat,$position) {
+  background-image:$url;
+  width:$width;
+  height:$height;
+  background-repeat:$repeat;
+  background-position:$position;
+ 
+}
+
+@mixin linear-gradient($direction, $color-stops, $height, $width, $position, $top, $att, $size) {
+  background: nth(nth($color-stops, 1), 1);
+  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
+  background: linear-gradient($direction, $color-stops);
+  height:$height;
+  width:$width;
+  position:$position;
+  top:$top;
+  background-attachment:$att;
+  background-size:$size;
+
+
+}
+@mixin boton-cabecera($back, $texto){
+	background-color:$back;
+	color:$texto;	
+}
+
+@mixin bkgcolor($color, $width,$height,$textcolor,$size,$padding){
+  background-color:$color;
+  width:$width;
+  height:$height;
+  color:$textcolor;
+  font-size:$size; 
+  padding:$padding;
+}
+
