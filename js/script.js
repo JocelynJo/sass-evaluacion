@@ -1,7 +1,10 @@
 $(document).ready(function(){
-	$('select').material.select();
-	$('.datapicker').pickadate();
-	$('.dropdown-button').dropdown();
-	$('.button-collapse').sideNav();
-	$('.slider').slider;
+	$('.slider').slider({
+		indicators:false
+	});
+	$('.collapsible').collapsible();
+	$('ul.tabs').tabs('select_tab', 'tab_id');
+	
 });
+
+

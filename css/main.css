@@ -6354,7 +6354,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
-nav {
+nav, .collapsible {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; }
@@ -6479,7 +6479,8 @@ nav {
   margin-left: -48%; }
 
 .titulo {
-  margin-left: 5%; }
+  margin-left: 5%;
+  color: white; }
 
 .boton2 {
   margin-left: 3.8%;
@@ -6494,10 +6495,10 @@ nav {
   position: relative;
   left: -34%; }
 
-.description {
+.description, .descript3 {
   font-size: 10px; }
 
-.description h6 {
+.description h6, .descript3 h6 {
   color: #F39C12;
   font-size: 10px; }
 
@@ -6546,7 +6547,7 @@ nav {
     margin-bottom: -22%; }
 
 .banner {
-  margin-top: -632px; }
+  margin-top: -773px; }
 
 .star-rating a {
   float: right;
@@ -6567,5 +6568,106 @@ nav {
   margin-top: 52%; }
   .video iframe {
     margin-top: 10%; }
+
+.box-img6 h5, p {
+  color: #95A5A6;
+  font-size: 13px; }
+
+.fecha2 {
+  color: #F39C12;
+  font-size: 10px; }
+
+.img6 {
+  margin-top: 10%; }
+
+.box-pop2, .box-pop3 {
+  margin-top: 4%;
+  margin-bottom: 2%;
+  margin-left: 10%; }
+  .box-pop2 h6, .box-pop3 h6 {
+    margin-top: 25%; }
+  .box-pop2 p, .box-pop3 p {
+    margin-top: 0%;
+    font-size: 12px; }
+
+.img7 {
+  width: 156%;
+  margin-top: 10%; }
+
+.linea {
+  margin-bottom: 4%; }
+
+.descript2, .descript3 {
+  margin-bottom: -5%; }
+
+.navegacion {
+  margin-left: 90%; }
+  .navegacion a {
+    color: #95A5A6; }
+    .navegacion a:hover {
+      color: #F39C12; }
+
+.tabs .tab a {
+  font-size: 10px;
+  color: #F39C12; }
+  .tabs .tab a:hover {
+    color: #F39C12; }
+
+.star-aside {
+  color: #95A5A6;
+  font-size: 13px;
+  position: relative;
+  left: -69%; }
+
+.divi1 {
+  margin-top: 10%; }
+
+.star-rating a {
+  font-size: 10px; }
+
+.tabs1 h6 {
+  color: #95A5A6;
+  font-size: 12px; }
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: #F39C12; }
+
+.descript3 p {
+  font-size: 12px;
+  margin-top: -3%; }
+.descript3 .star-rating {
+  margin-top: -7%; }
+.descript3 h6 {
+  font-size: 9px;
+  margin-top: 25%; }
+
+.box-texto {
+  margin-top: 1%; }
+
+.box-pop3 {
+  margin-top: 1%; }
+
+#seccion-world {
+  margin-top: -10%; }
+
+#section-lifestyle {
+  margin-bottom: 5%; }
+
+.img8 {
+  margin-top: 10%; }
+
+.box-busi h5 {
+  font-size: 15px;
+  color: #95A5A6; }
+
+.acordion {
+  position: relative;
+  margin-top: -49%; }
+
+.collapsible {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin: none; }
 
 /*# sourceMappingURL=main.css.map */

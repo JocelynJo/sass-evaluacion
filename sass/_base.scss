@@ -1,8 +1,9 @@
- nav{
+ nav, .collapsible{
  	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
  }
+
 
 .logo{
 	color:$titulos;
@@ -88,6 +89,7 @@
 
 .titulo{
 	margin-left:5%;
+	color:$icoletra;
 }
 .boton2{
 	margin-left:3.8%;
@@ -147,7 +149,7 @@
 	}
 }
 .banner{
-	margin-top:-632px;
+	margin-top:-773px;
 }
 
 .star-rating a {
@@ -175,4 +177,133 @@
 	& iframe{
 		margin-top:10%;
 	}
+}
+.box-img6 h5, p {
+	@include links($normal,13px);
+}
+.fecha2 {
+	@include links($selected,10px);
+}
+.img6{
+	margin-top:10%;
+}
+
+
+.box-pop2{
+	margin-top:4%;
+	margin-bottom:2%;
+	margin-left:10%;
+
+	h6{
+		margin-top:25%;
+	}
+
+	p{
+		margin-top:0%;
+		font-size:12px;
+	}
+	
+}
+.img7{
+	@include imagenes(156%);
+	margin-top:10%;
+}
+
+.linea{
+	margin-bottom:4%;
+}
+.descript2{
+	margin-bottom:-5%;
+}
+.navegacion{
+	margin-left:90%;
+
+	a{
+		color:$normal;
+	
+		&:hover{
+			color:$selected;
+			
+		}
+	}
+
+}
+
+.tabs .tab a{
+	font-size:10px;
+	color:$selected;
+	&:hover{
+		color:$selected;
+	}
+	
+}
+.star-aside{
+	@include links($normal,13px);
+	position:relative;
+	left:-69%;
+
+}
+.divi1{
+	margin-top:10%;
+}
+.star-rating a{
+	font-size:10px;
+}
+.tabs1{
+	h6{
+		color:$normal;
+		font-size:12px;
+	}
+
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+	color:$selected;
+}
+.descript3 {
+	@extend .descript2;
+	@extend .description;
+
+	
+	p{
+		font-size:12px;
+		margin-top:-3%;
+	}
+	.star-rating {
+		margin-top:-7%;
+	}
+	h6{
+		font-size:9px;
+		margin-top:25%;
+	}
+
+}
+.box-texto{
+	margin-top:1%;
+}
+
+.box-pop3{
+	@extend .box-pop2;
+	margin-top:1%;
+}
+#seccion-world{
+	margin-top:-10%;
+}
+#section-lifestyle{
+	margin-bottom:5%;
+}
+.img8{
+	margin-top:10%;
+}
+.box-busi{
+	h5{
+		font-size:15px;
+		color:$normal;
+	}
+}
+.acordion{
+	position:relative;
+	margin-top:-49%;
+}
+.collapsible{
+	@include none(none,none,none,none);
 }

@@ -38,4 +38,14 @@
   font-size:$size; 
   padding:$padding;
 }
+@mixin imagenes($width){
+ width:$width;
+}
 
+@mixin none($none1,$none2,$none3,$none4){
+    border-top: $none1;
+    border-right: $none2;
+    border-left: $none3;
+    margin: $none4;
+
+}
